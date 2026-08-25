@@ -1,7 +1,6 @@
 # Dramatic Shape Voxel Mod
 
-A mod for the [Pokémon Gen 1 Recompilation
-Project](https://github.com/bryanthaboi/pokemon-gen1-recomp-project).
+A standalone VR/MR application for Gen1.
 
 The overworld as a voxelized 3D diorama. Also supports experimental
 first-person, third-person and VR.
