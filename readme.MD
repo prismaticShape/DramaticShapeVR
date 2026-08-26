@@ -1,4 +1,4 @@
-# Dramatic Shape Voxel Mod
+# Dramatic Shape Voxel Mod for Quest 3 and other standalone VR headsets
 
 A standalone VR/MR application for Gen1.
 
