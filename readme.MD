@@ -27,6 +27,11 @@ alongside.
 | left hand | *every mode* — the Pokédex: menus and dialogs on its screen, and the classic battle frame (both HUDs and the text box) through a fight |
 ## Licenses
 
+## Safety
+
+Ensure your play area is clear of obstacles.
+
+
 It redistributes one third-party binary:
 
 - **`assets/vr/openxr_loader.dll`** — the Khronos OpenXR loader
@@ -44,6 +49,7 @@ the original game, as documented by the
 [pret/pokered](https://github.com/pret/pokered) disassembly. No ROM
 data, artwork or audio is included; the mod reads the assets the host
 game already has.
+
 
 ### Acknowledgements — pret/pokestadium
 
