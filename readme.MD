@@ -25,13 +25,13 @@ alongside.
 | both grips squeezed | *DIORAMA only* — turn the model with your hands, and open or close the viewport by spreading them; *during a fight* — turn and resize the fight instead (the table keeps its own turn), and the fight remembers |
 | head | *1ST and battles* — look; FreeMove walks where you look |
 | left hand | *every mode* — the Pokédex: menus and dialogs on its screen, and the classic battle frame (both HUDs and the text box) through a fight |
-## Licenses
+
 
 ## Safety
 
 Ensure your play area is clear of obstacles.
 
-
+## Licenses
 It redistributes one third-party binary:
 
 - **`assets/vr/openxr_loader.dll`** — the Khronos OpenXR loader
