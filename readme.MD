@@ -82,3 +82,10 @@ from upstream and follow that project's own terms.
 No Pokémon Stadium ROM data ships here either. The models are built on the
 player's own machine, from a cartridge they supply, into their own save
 directory — see [Getting the models](#getting-the-models).
+
+
+## Credits
+Dramatic Shape and derivative code is considered source-available rather than open source. Gen1Recomp engine was forked from Gen1Recomp by bryanthaboi and BOIS CLUB GAMES, LLC. The Generation I engine, mod platform, renderer, and tooling are theirs; All code pertaining to the Virtual Reality functionality, and the mod under /DRAMATIC_SHAPE packaged within the release are owned by prismaticShape.
+
+## Licence in one paragraph
+Two parts. Everything inherited from Gen1Recomp, and every shared engine file since, stays MIT under its original authors' copyright — that is the default. VR components portions of the APK and DRAMATIC_SHAPE mod written for this fork are source-available rather than open source (© 2026 prismaticShape): read them, run them, change your own copy, but don't redistribute or fork them.
