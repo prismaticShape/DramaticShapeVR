@@ -1,9 +1,6 @@
-# Dramatic Shape Voxel Mod for Quest 3 and other standalone VR headsets
+# Official Dramatic Shape Voxel Mod for Quest 3 and other standalone VR headsets
 
-A standalone VR/MR application for Gen1.
-
-The overworld as a voxelized 3D diorama. Also supports experimental
-first-person, third-person and VR.
+A standalone VR/MR application for Gen1 -- contains passthrough/diorama/first person modes.
 
 ### VR controls
 
