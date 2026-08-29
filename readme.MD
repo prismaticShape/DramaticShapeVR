@@ -84,5 +84,7 @@ directory — see [Getting the models](#getting-the-models).
 ## Credits
 Dramatic Shape and derivative code is considered source-available rather than open source. Gen1Recomp engine was forked from Gen1Recomp by bryanthaboi and BOIS CLUB GAMES, LLC. The Generation I engine, mod platform, renderer, and tooling are theirs; All code pertaining to the Virtual Reality functionality, and the mod under /DRAMATIC_SHAPE packaged within the release are owned by prismaticShape.
 
+Follower sprites created by anima-nel. These are not included in the repository, but are shipped within the application.
+
 ## Licence in one paragraph
 Two parts. Everything inherited from Gen1Recomp, and every shared engine file since, stays MIT under its original authors' copyright — that is the default. VR components portions of the APK and DRAMATIC_SHAPE mod written for this fork are source-available rather than open source (© 2026 prismaticShape): read them, run them, change your own copy, but don't redistribute or fork them.
