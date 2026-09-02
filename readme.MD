@@ -39,7 +39,30 @@ It redistributes one third-party binary:
   as the license requires; keep the two files together if you
   redistribute this mod. Source:
   [KhronosGroup/OpenXR-SDK](https://github.com/KhronosGroup/OpenXR-SDK).
-
+- **`assets/voice/kws-en/`** -- the keyword-spotting model VOICE listens
+  with: `sherpa-onnx-kws-zipformer-gigaspeech-3.3M-2024-01-01` by the
+  k2-fsa / icefall team, trained on GigaSpeech, licensed under the
+  **Apache License 2.0** (the text is at
+  [`assets/voice/LICENSE-apache-2.0.txt`](assets/voice/LICENSE-apache-2.0.txt);
+  keep it with the model). The Quest APK also carries the two libraries
+  that run it, neither of which is in this repository:
+  [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (Apache-2.0) and
+  [ONNX Runtime](https://github.com/microsoft/onnxruntime) (MIT,
+  [`assets/voice/LICENSE-onnxruntime.txt`](assets/voice/LICENSE-onnxruntime.txt)),
+  fetched by `tools/fetch_voice_libs.sh` at their pinned release.
+- **`lib/HandMeshData.lua`** — the GO-mode hands: the `ash_hands_webxr`
+  pair (Ash-style fingerless gloves modelled onto the Godot XR Tools
+  hands), baked static in their `hold` pose. Base hand mesh, rig and
+  pose library **CC0 1.0** by DigitalN8m4r3 (Miodrag Sejic); the glove
+  package is **CC0 1.0** as well.
+- **`lib/PokeballMesh.lua`** — the Poke Ball prop the LET'S GO catch
+  mode throws and GO mode holds: "Pokemon Basic Pokeball" by
+  **JMGameDev**, licensed **CC BY 4.0**
+  (<https://creativecommons.org/licenses/by/4.0/>), from
+  [Sketchfab](https://sketchfab.com/3d-models/pokemon-basic-pokeball-9b29539199c14ddea4de7776c4d758df).
+  The mesh is split at its seam into hinging halves and rewritten into
+  the mod's own vertex format by `tools/glb_bake_pokeball.py`; that is a
+  modification, and the attribution above must travel with it.
 Everything else in this mod is original to it, except that the voxel
 geometry and shape profiles are derived from the tile and sprite data of
 the original game, as documented by the
