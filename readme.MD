@@ -24,6 +24,40 @@ alongside.
 | left hand | *every mode* — the Pokédex: menus and dialogs on its screen, and the classic battle frame (both HUDs and the text box) through a fight |
 
 
+## Voice commands
+
+Say the move and your Pokemon uses it. At the battle menu -- FIGHT / PKMN /
+ITEM / RUN, or the move list under FIGHT -- "use Thundershock" picks
+THUNDERSHOCK, "Pikachu, use Quick Attack!" works just as well (the name is
+ignored, the move is what counts), and at the main menu "fight" and "run
+away" do what they say. A move said at the main menu opens FIGHT and lands
+the move by itself. Long move names can be said bare ("Thunderbolt!"); a
+short one wants its "use" in front, because "cut", "dig" and "fly" are
+ordinary words.
+
+The row is **BATTLES.. > VOICE** (ON by default). The microphone is open
+*only* while that menu is up: nothing is heard on the map, in a message, or
+outside a battle, and nothing leaves the headset -- the recogniser is
+on-device, a 3.3M-parameter keyword spotter
+([sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx), Apache-2.0) that is
+told the four moves on the card each turn and can decode nothing else.
+Decoding runs on its own thread; the game's frame never waits for it.
+
+On the headset the first launch asks for the microphone; say yes. The
+headset's own microphone switch (the mic icon in quick settings, or
+Settings > Privacy) has to be on as well: switched off, Android hands
+every app silence rather than refusing, and the mod logs that once at
+the first battle menu. Deny the permission
+and voice stays off for that session (LÖVE puts up one "mic permission
+missing" notice at the first battle menu; grant the permission in the
+headset's app settings to turn it back on). On Windows the mod folder needs
+the two native libraries under `voice/win-x64/` -- run
+`tools/fetch_voice_libs.sh` once -- and any microphone Windows knows about
+is used. The vocabulary is cut ahead of time by `tools/voice_tokens.py`
+into `data/voice_tokens.lua`; on a synthesised-speech battery of every
+move it hears about nine in ten, never picks the wrong move, and never
+fires on unrelated speech.
+
 ## Safety
 
 Ensure your play area is clear of obstacles.
