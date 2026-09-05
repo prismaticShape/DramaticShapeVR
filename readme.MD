@@ -1,4 +1,4 @@
-# Official Dramatic Shape VR for Quest 2/3
+# Official Dramatic Shape VR for Quest 2/3 Standalone and PCVR
 
 A standalone VR/MR application for Gen1 -- contains passthrough/diorama/first person modes.
 
